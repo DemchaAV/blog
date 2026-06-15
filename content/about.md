@@ -11,22 +11,17 @@ My main open-source project is [**GraphCompose**](https://github.com/DemchaAV/Gr
 
 I also built [**CVRewriter**](https://github.com/DemchaAV/CVRewriter), an AI-powered resume tailoring platform with a Spring Boot backend, JWT authentication, PDF generation, AI orchestration, profile-based CV management, and application tracking. It is a product-shaped backend project, not just an AI wrapper.
 
-I am interested in technology as a living system: how new tools appear, how developers adapt, how software and hardware change the way people work, and how ideas turn into real products. A large part of my attention is now on AI systems: how they work, how humans should interact with them, how to structure them, and how to build useful workflows around them.
-
-What fascinates me most is how far people can go from simple tools to extraordinary inventions in a relatively short time. Even when something already works, humans keep trying to make it better, clearer, faster, more useful, or more powerful. That constant movement forward is one of the reasons I care so much about technology.
-
-I also care about the hardware side of progress: new phones, operating systems, memory architectures, processors, chips, sensors, and the design choices behind each generation of devices. I like understanding not only that something became faster or more efficient, but what changed inside the system to make that possible.
-
-I follow new model releases, AI product changes, and broader industry movement closely. I try to understand not only what changed, but why it matters and how it can be used responsibly in real development work.
+Most of my attention now goes to AI systems: how they work, how to structure them, and how to build useful workflows around them without losing engineering responsibility for the result. I follow new model releases and industry shifts closely — not for the hype, but to understand what actually changes in real development work. I also pay attention to the hardware side of progress: phones, processors, memory, and the design choices behind each generation of devices.
 
 This blog is where I write about:
 
 - Java and Spring Boot backend engineering
 - PDF and document generation with GraphCompose
 - AI systems, developer tools, and human-AI workflows
-- Hardware progress, phones, processors, memory, and operating systems
-- Open-source design decisions
-- My own projects, product ideas, and technical experiments
+- Hardware progress: phones, processors, memory, and operating systems
+- Open-source design decisions and my own projects
 - Career notes from building toward stronger backend/product work in the UK
 
-Sometimes these posts will be practical engineering notes. Sometimes they will be long-form thoughts about technology, AI, architecture, or the direction of the industry. The goal is simple: write honestly, make the trade-offs visible, and publish the ideas that are too large to leave only in my notes.
+Some posts are practical engineering notes; others are longer thoughts on technology, AI, or architecture. The goal is simple: write honestly, make the trade-offs visible, and publish the ideas that are too large to leave only in my notes.
+
+You can find my work on [GitHub](https://github.com/DemchaAV) and [LinkedIn](https://www.linkedin.com/in/artemdemchyshyn).
