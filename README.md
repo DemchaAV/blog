@@ -2,6 +2,8 @@
 
 A minimal technical blog for Java backend engineering notes, built with Hugo and the PaperMod theme.
 
+**Live:** <https://demchaav.github.io/blog/>
+
 ## Stack
 
 - Hugo
@@ -60,6 +62,8 @@ Set `draft: false` when the post is ready to publish.
 
 ## Publishing to GitHub Pages
 
+The site is already live at <https://demchaav.github.io/blog/> and redeploys automatically on every push to `main`. The one-time setup (kept for reference):
+
 1. Push this repository to GitHub.
 2. In the GitHub repository, open `Settings` -> `Pages`.
 3. Set `Source` to `GitHub Actions`.
@@ -69,28 +73,22 @@ The workflow in `.github/workflows/hugo.yaml` builds the site with Hugo and depl
 
 ## Analytics
 
-The blog is prepared for GoatCounter, a lightweight privacy-friendly analytics service with a free hosted option for personal/public sites.
-
-1. Create a site on [GoatCounter](https://www.goatcounter.com/).
-2. Choose a site code, for example `artem-blog`.
-3. Update `hugo.yaml`:
+Analytics use [GoatCounter](https://www.goatcounter.com/) (privacy-friendly, no cookies). It is enabled in `hugo.yaml` with the site code `demchaav`:
 
 ```yaml
 params:
   analytics:
     goatcounter:
       enabled: true
-      code: "artem-blog"
+      code: "demchaav"
       enableInDevelopment: false
 ```
 
-After deployment, stats will be available at:
+Stats: <https://demchaav.goatcounter.com/>. The script loads in production only, so local `hugo server` visits are not counted.
 
-```text
-https://artem-blog.goatcounter.com/
-```
+## Comments
 
-Keep `enableInDevelopment: false` to avoid counting local visits from `hugo server`.
+Comments use [giscus](https://giscus.app/) backed by this repository's GitHub Discussions (Announcements category). The loader lives in `layouts/partials/comments.html` and is enabled via `params.comments: true`; the widget follows the site's light/dark theme.
 
 ## Updating PaperMod
 
