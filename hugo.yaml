@@ -73,6 +73,9 @@ params:
   TocOpen: false
   comments: true
 
+  cover:
+    linkFullImages: true
+
   analytics:
     goatcounter:
       enabled: true
