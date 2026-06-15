@@ -3,7 +3,8 @@
 <script>
   (function () {
     function currentTheme() {
-      return document.body.classList.contains("dark") ? "dark" : "light";
+      // PaperMod stores the active theme on <html data-theme="...">
+      return document.documentElement.dataset.theme === "dark" ? "dark" : "light";
     }
 
     var s = document.createElement("script");
