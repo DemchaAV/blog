@@ -71,6 +71,7 @@ params:
   ShowRssButtonInSectionTermList: true
   ShowToc: true
   TocOpen: false
+  comments: true
 
   analytics:
     goatcounter:

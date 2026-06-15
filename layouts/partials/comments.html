@@ -1,0 +1,44 @@
+{{- /* giscus comments, synced with PaperMod's light/dark toggle */ -}}
+<div id="comments-giscus" class="giscus"></div>
+<script>
+  (function () {
+    function currentTheme() {
+      return document.body.classList.contains("dark") ? "dark" : "light";
+    }
+
+    var s = document.createElement("script");
+    s.src = "https://giscus.app/client.js";
+    var attrs = {
+      "data-repo": "DemchaAV/blog",
+      "data-repo-id": "R_kgDOS7KwCw",
+      "data-category": "Announcements",
+      "data-category-id": "DIC_kwDOS7KwC84C_Mtb",
+      "data-mapping": "pathname",
+      "data-strict": "1",
+      "data-reactions-enabled": "1",
+      "data-emit-metadata": "0",
+      "data-input-position": "bottom",
+      "data-theme": currentTheme(),
+      "data-lang": "en",
+      "crossorigin": "anonymous"
+    };
+    Object.keys(attrs).forEach(function (k) { s.setAttribute(k, attrs[k]); });
+    s.async = true;
+    document.getElementById("comments-giscus").appendChild(s);
+
+    // Keep giscus theme in sync when the user toggles the site theme.
+    var btn = document.getElementById("theme-toggle");
+    if (btn) {
+      btn.addEventListener("click", function () {
+        setTimeout(function () {
+          var iframe = document.querySelector("iframe.giscus-frame");
+          if (!iframe) return;
+          iframe.contentWindow.postMessage(
+            { giscus: { setConfig: { theme: currentTheme() } } },
+            "https://giscus.app"
+          );
+        }, 50);
+      });
+    }
+  })();
+</script>
