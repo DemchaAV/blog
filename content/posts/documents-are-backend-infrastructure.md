@@ -4,6 +4,11 @@ date: 2026-06-15T09:00:00+01:00
 draft: false
 slug: "documents-are-backend-infrastructure"
 description: "Why document generation deserves to be treated as backend infrastructure, and when a Java project actually needs a document engine."
+cover:
+  image: "images/posts/documents-are-backend-infrastructure.png"
+  alt: "Pipeline diagram: backend data flows through a document engine and a tested layout into business documents"
+  caption: "Document generation as a pipeline: data → engine → tested layout → business documents — reliable, versioned, and auditable."
+  relative: false
 tags:
   - java
   - graphcompose
