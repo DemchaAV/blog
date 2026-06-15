@@ -57,6 +57,8 @@ params:
   env: production
   description: "Personal technical writing by Artem Demchyshyn, a Ukrainian Java Backend Developer in London, on backend engineering, AI systems, GraphCompose, hardware progress, open source, and technology."
   author: "Artem Demchyshyn"
+  images:
+    - "images/og-default.png"
   defaultTheme: auto
   disableThemeToggle: false
   DateFormat: "2 January 2006"
