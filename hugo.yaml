@@ -1,0 +1,103 @@
+baseURL: "https://demchaav.github.io/blog/"
+locale: "en-GB"
+title: "Artem Demchyshyn"
+theme: "PaperMod"
+timeZone: "Europe/London"
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 10
+
+permalinks:
+  posts: "/posts/:slug/"
+
+taxonomies:
+  category: "categories"
+  tag: "tags"
+  series: "series"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+caches:
+  images:
+    dir: ":cacheDir/images"
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 50
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 60
+
+params:
+  env: production
+  description: "Personal technical writing by Artem Demchyshyn, a Ukrainian Java Backend Developer in London, on backend engineering, AI systems, GraphCompose, hardware progress, open source, and technology."
+  author: "Artem Demchyshyn"
+  defaultTheme: auto
+  disableThemeToggle: false
+  DateFormat: "2 January 2006"
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  TocOpen: false
+
+  analytics:
+    goatcounter:
+      enabled: false
+      code: ""
+      enableInDevelopment: false
+
+  homeInfoParams:
+    Title: "Thoughts from a Java backend developer in London"
+    Content: "A personal technical blog about Java, Spring Boot, GraphCompose, AI systems, developer tools, hardware progress, open source, and the ideas that appear while building real products."
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 2
+    keys:
+      - title
+      - permalink
+      - summary
+      - content
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    noClasses: false
+    guessSyntax: true
+    lineNos: false
