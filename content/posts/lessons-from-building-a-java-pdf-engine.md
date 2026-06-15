@@ -2,7 +2,6 @@
 title: "Lessons from Building a Java PDF Engine"
 date: 2026-06-14T20:40:00+01:00
 draft: false
-weight: 30
 slug: "lessons-from-building-a-java-pdf-engine"
 description: "Engineering lessons from building layout, pagination, and rendering code in Java."
 cover:
@@ -18,6 +17,8 @@ tags:
 categories:
   - Engineering
   - GraphCompose
+series:
+  - Building GraphCompose
 ---
 
 Building a PDF engine in Java is a useful way to meet a lot of hidden complexity at once. Text measurement, pagination, styling, rendering order, reusable components, API design, testing, and performance all become visible very quickly.

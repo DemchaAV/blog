@@ -2,7 +2,6 @@
 title: "Why I Started This Blog"
 date: 2026-06-14T21:20:00+01:00
 draft: false
-weight: 10
 slug: "why-i-started-this-blog"
 description: "A short note on why I want a personal technical blog and what I plan to write about."
 cover:
@@ -12,7 +11,6 @@ cover:
   relative: false
 tags:
   - personal
-  - technology
   - ai
   - backend
   - hardware

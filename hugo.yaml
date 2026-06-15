@@ -76,6 +76,17 @@ params:
       code: ""
       enableInDevelopment: false
 
+  socialIcons:
+    - name: github
+      title: "GitHub"
+      url: "https://github.com/DemchaAV"
+    - name: linkedin
+      title: "LinkedIn"
+      url: "https://www.linkedin.com/in/artemdemchyshyn"
+    - name: rss
+      title: "RSS"
+      url: "/blog/index.xml"
+
   homeInfoParams:
     Title: "Thoughts from a Java backend developer in London"
     Content: "A personal technical blog about Java, Spring Boot, GraphCompose, AI systems, developer tools, hardware progress, open source, and the ideas that appear while building real products."

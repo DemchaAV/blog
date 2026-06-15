@@ -7,9 +7,9 @@ I am Artem Demchyshyn, a Ukrainian Java Backend Developer based in London.
 
 I work with Java, Spring Boot, REST APIs, SQL, JPA/Hibernate, Spring Security, Docker, and Flyway. I care about backend systems that are secure, practical, easy to reason about, and useful beyond the demo.
 
-My main open-source project is **GraphCompose**, a declarative PDF and document layout engine for Java and Kotlin. It grew out of a simple frustration: document generation should be treated like real product code, not as a pile of fragile drawing instructions.
+My main open-source project is [**GraphCompose**](https://github.com/DemchaAV/GraphCompose), a declarative PDF and document layout engine for Java and Kotlin. It grew out of a simple frustration: document generation should be treated like real product code, not as a pile of fragile drawing instructions.
 
-I also built **CVRewriter**, an AI-powered resume tailoring platform with a Spring Boot backend, JWT authentication, PDF generation, AI orchestration, profile-based CV management, and application tracking. It is a product-shaped backend project, not just an AI wrapper.
+I also built [**CVRewriter**](https://github.com/DemchaAV/CVRewriter), an AI-powered resume tailoring platform with a Spring Boot backend, JWT authentication, PDF generation, AI orchestration, profile-based CV management, and application tracking. It is a product-shaped backend project, not just an AI wrapper.
 
 I am interested in technology as a living system: how new tools appear, how developers adapt, how software and hardware change the way people work, and how ideas turn into real products. A large part of my attention is now on AI systems: how they work, how humans should interact with them, how to structure them, and how to build useful workflows around them.
 

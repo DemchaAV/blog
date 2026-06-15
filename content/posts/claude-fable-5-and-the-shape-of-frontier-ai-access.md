@@ -2,7 +2,6 @@
 title: "Claude Fable 5 and the Shape of Frontier AI Access"
 date: 2026-06-14T20:00:00+01:00
 draft: false
-weight: 50
 slug: "claude-fable-5-and-the-shape-of-frontier-ai-access"
 description: "A short reflection on Claude Fable 5, Mythos-class models, safety layers, pricing, and what frontier AI access may become."
 cover:

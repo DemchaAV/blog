@@ -2,7 +2,6 @@
 title: "What Drove Me to Build GraphCompose"
 date: 2026-06-14T21:00:00+01:00
 draft: false
-weight: 20
 slug: "what-drove-me-to-build-graphcompose"
 aliases:
   - "/posts/why-i-started-building-graphcompose/"
@@ -14,13 +13,15 @@ cover:
   relative: false
 tags:
   - java
-  - pdfbox
+  - pdf
   - graphcompose
   - architecture
   - open-source
 categories:
   - GraphCompose
   - Open Source
+series:
+  - Building GraphCompose
 ---
 
 It started with a simple idea: I wanted to create my own CV in pure Java.

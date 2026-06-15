@@ -2,7 +2,6 @@
 title: "AI as a Developer Tool, Not Cheating"
 date: 2026-06-14T20:20:00+01:00
 draft: false
-weight: 40
 slug: "ai-as-a-developer-tool-not-cheating"
 description: "A practical view of AI-assisted development and where responsibility still belongs."
 cover:
@@ -14,7 +13,6 @@ tags:
   - ai
   - developer-tools
   - career
-  - engineering
 categories:
   - AI Tools
   - Career
