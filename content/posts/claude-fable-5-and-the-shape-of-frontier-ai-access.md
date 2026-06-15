@@ -5,7 +5,7 @@ draft: false
 slug: "claude-fable-5-and-the-shape-of-frontier-ai-access"
 description: "A short reflection on Claude Fable 5, Mythos-class models, safety layers, pricing, and what frontier AI access may become."
 cover:
-  image: "/images/posts/claude-fable-5-and-the-shape-of-frontier-ai-access.png"
+  image: "images/posts/claude-fable-5-and-the-shape-of-frontier-ai-access.png"
   alt: "A question mark formed from butterfly illustrations on a pale background"
   caption: "Frontier AI access is becoming a question of capability, safety, policy, and control."
   relative: false

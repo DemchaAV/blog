@@ -7,7 +7,7 @@ aliases:
   - "/posts/why-i-started-building-graphcompose/"
 description: "From fighting PDFBox coordinates to building a Java-first declarative document layout engine."
 cover:
-  image: "/images/posts/what-drove-me-to-build-graphcompose.png"
+  image: "images/posts/what-drove-me-to-build-graphcompose.png"
   alt: "A developer connecting layout fragments into finished document pages"
   caption: "GraphCompose grew from one idea: describe intent, resolve layout, render the document."
   relative: false

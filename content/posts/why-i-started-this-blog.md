@@ -5,7 +5,7 @@ draft: false
 slug: "why-i-started-this-blog"
 description: "A short note on why I want a personal technical blog and what I plan to write about."
 cover:
-  image: "/images/posts/why-i-started-this-blog.png"
+  image: "images/posts/why-i-started-this-blog.png"
   alt: "A person pushing a large modular structure made of technology symbols"
   caption: "Technology moves forward because people keep asking whether things can be better."
   relative: false

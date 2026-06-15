@@ -5,7 +5,7 @@ draft: false
 slug: "ai-as-a-developer-tool-not-cheating"
 description: "A practical view of AI-assisted development and where responsibility still belongs."
 cover:
-  image: "/images/posts/ai-as-a-developer-tool-not-cheating.png"
+  image: "images/posts/ai-as-a-developer-tool-not-cheating.png"
   alt: "A person using leverage to move a large stone covered with code symbols"
   caption: "AI is leverage. Engineering judgment still decides where to push."
   relative: false

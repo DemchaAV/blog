@@ -5,7 +5,7 @@ draft: false
 slug: "lessons-from-building-a-java-pdf-engine"
 description: "Engineering lessons from building layout, pagination, and rendering code in Java."
 cover:
-  image: "/images/posts/lessons-from-building-a-java-pdf-engine.png"
+  image: "images/posts/lessons-from-building-a-java-pdf-engine.png"
   alt: "A developer looking at layered document layout plans"
   caption: "A document engine is a stack of layout decisions, not only a renderer."
   relative: false
