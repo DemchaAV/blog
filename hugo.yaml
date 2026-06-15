@@ -75,8 +75,8 @@ params:
 
   analytics:
     goatcounter:
-      enabled: false
-      code: ""
+      enabled: true
+      code: "demchaav"
       enableInDevelopment: false
 
   socialIcons:
