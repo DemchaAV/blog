@@ -21,7 +21,7 @@ Most backend systems eventually need to produce documents: invoices, reports, of
 
 The code that produces them often does not get the same respect.
 
-This is the companion to {{< relref "/posts/what-drove-me-to-build-graphcompose.md" >}} — that post was the personal story of how GraphCompose started. This one is about a claim I now believe after living inside that code: document generation is backend infrastructure, and it pays off when you build it like infrastructure instead of like a one-off script.
+This is the companion to [What Drove Me to Build GraphCompose]({{< relref "/posts/what-drove-me-to-build-graphcompose.md" >}}) — that post was the personal story of how GraphCompose started. This one is about a claim I now believe after living inside that code: document generation is backend infrastructure, and it pays off when you build it like infrastructure instead of like a one-off script.
 
 ## Documents are not decoration
 
@@ -64,7 +64,7 @@ That separation matters because document templates change constantly. A declarat
 
 A document engine only earns the word "infrastructure" if you can trust it under change.
 
-That takes more than one shape of test: small checks for layout calculations, regression tests for document structure, rendered-output checks for visual behavior, and real templates that act as integration examples. The goal is not to test pixels for their own sake — it is to catch the kind of change that would make a business document look broken or untrustworthy. I wrote more about that engineering side in {{< relref "/posts/lessons-from-building-a-java-pdf-engine.md" >}}.
+That takes more than one shape of test: small checks for layout calculations, regression tests for document structure, rendered-output checks for visual behavior, and real templates that act as integration examples. The goal is not to test pixels for their own sake — it is to catch the kind of change that would make a business document look broken or untrustworthy. I wrote more about that engineering side in [Lessons from Building a Java PDF Engine]({{< relref "/posts/lessons-from-building-a-java-pdf-engine.md" >}}).
 
 ## The trade-off I wanted
 
