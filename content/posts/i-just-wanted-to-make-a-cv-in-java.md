@@ -269,3 +269,7 @@ Which library or method you reach for is always your call — PDFBox, iText, Jas
 And if you do try it — or if it makes you angry — I genuinely want to hear about it. Open an issue, star the repo, or leave a comment. The most useful feedback always comes from the documents I never thought to test.
 
 *Describe what your document says. Let the engine count the pixels.*
+
+---
+
+*Originally published on [Medium](https://medium.com/@demchaav/i-just-wanted-to-make-a-cv-in-java-i-ended-up-building-a-document-engine-4cfce55d15d0).*
