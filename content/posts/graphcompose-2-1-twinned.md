@@ -35,13 +35,13 @@ I was building a PDF engine at the time, for what looked like an unrelated reaso
 
 ## Coordinates belong to the layout system
 
-GraphCompose started because I wanted to write my CV in Java and ended up hand-calculating offsets in PDFBox until I asked why I was doing arithmetic a program is better at. I told that story in [What Drove Me to Build GraphCompose]({{< relref "/posts/what-drove-me-to-build-graphcompose.md" >}}), so the short version: nobody thinks about a document in X and Y. They think in sections, headings, tables, panels, and what sits above what. Coordinates are an implementation detail, and they belong to the engine.
+GraphCompose started because I wanted to write my CV in Java and ended up hand-calculating offsets in PDFBox until I asked why I was doing arithmetic a program is better at. I told that story in [I Just Wanted to Make a CV in Java]({{< relref "/posts/i-just-wanted-to-make-a-cv-in-java.md" >}}), so the short version: nobody thinks about a document in X and Y. They think in sections, headings, tables, panels, and what sits above what. Coordinates are an implementation detail, and they belong to the engine.
 
 The consequence is a stack of separate layers. Data is one. Document structure is another. Theme, colour, and the visual patterns a company reuses are another. The output format is the last one, and it is the thinnest.
 
 Which gives you the property that matters: changing content should not rebuild the design, changing the theme should not touch the data, and adding an output format should not mean writing a second layout engine. Above all, correcting one word should not regenerate the document.
 
-[2.0]({{< relref "/posts/documents-are-backend-infrastructure.md" >}}) turned that into packaging — a lean core that owns the document model, measurement, pagination and resolved geometry, with render backends as separate modules discovered at runtime. PDFBox draws PDF. Nothing in the core knows that.
+[2.0](https://github.com/DemchaAV/GraphCompose/releases/tag/v2.0.0) turned that into packaging — a lean core that owns the document model, measurement, pagination and resolved geometry, with render backends as separate modules discovered at runtime. PDFBox draws PDF. Nothing in the core knows that.
 
 2.1 is where the second backend arrives and the architecture has to prove it was worth the trouble. I called the line *twinned*.
 
